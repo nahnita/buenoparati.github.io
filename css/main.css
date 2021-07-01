@@ -31,7 +31,7 @@
         url("../fonts/ETmoudles.ttf") format("truetype"), 
         url("../fonts/ETmoudles.svg#ETmodules") format("svg"); }
 body{
-    font-family: 'Roboto';
+    font-family: Arial,Helvetica,sans-serif;
     color: #333;
     background: #fff;
     /* fallback for old browsers */
