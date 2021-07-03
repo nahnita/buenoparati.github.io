@@ -29,9 +29,18 @@
         url("../fonts/ETmoudles.woff2") format("woff2"), 
         url("../fonts/ETmoudles.woff") format("woff"), 
         url("../fonts/ETmoudles.ttf") format("truetype"), 
-        url("../fonts/ETmoudles.svg#ETmodules") format("svg"); }
+        url("../fonts/ETmoudles.svg#ETmodules") format("svg"); 
+}
+@font-face {
+    font-family: 'blogger_sansregular';
+    src: url('../fonts/blogger_sans-webfont.woff2') format('woff2'),
+         url('../fonts/blogger_sans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body{
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: 'blogger_sansregular';
     color: #333;
     background: #fff;
     /* fallback for old browsers */
@@ -39,6 +48,9 @@ body{
     background: linear-gradient(to right, #B06AB3, #4568DC);*/
     justify-content: center;
     align-items: center;
+}
+h1{
+    font-family: 'dancing_scriptregular';
 }
 .contenedor{
     margin: 0.5em auto;
@@ -192,7 +204,7 @@ body{
     border-top: 3px solid #000;
     border-right: 3px solid #000;
     border-left: 3px solid #000;
-    /*font-family: 'dancing_scriptregular';*/
+    font-family: 'dancing_scriptregular' !important;
     text-transform: uppercase;
     color: #000;
     text-shadow: 1.5px 1.5px 1.5px #333;
@@ -269,7 +281,8 @@ body{
     /*background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;*/
-    background-color: rgb(224,48,157);
+    /*background-color: rgb(224,48,157);*/
+    background-color: #e25bb0;
 }
 .seccion{
     width: 100%;
@@ -330,7 +343,8 @@ body{
     /*background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;*/
-    background-color: rgb(203,111,99);
+    /*background-color: rgb(203,111,99);*/
+    background-color: #dc968d;
 }
 .seccion-cuerpo-contenido-mapa{
     width: 100%;
@@ -366,7 +380,8 @@ body{
     /*background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;*/
-    background-color: rgb(57,127,150);
+    /*background-color: rgb(57,127,150);*/
+    background-color: #71a7ba;
 }
 .seccion-cuerpo-contenido-formulario{
     width: 100%;
@@ -483,7 +498,8 @@ button{
     /*background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;*/
-    background-color: rgb(216,220,55);
+   /* background-color: rgb(216,220,55);*/
+    background-color: #dfe156;
     height: 100%;
 }
 .cabecera-productos{
@@ -506,7 +522,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    /*font-family: 'dancing_scriptregular';*/
+    font-family: 'dancing_scriptregular';
     text-transform: uppercase;
     color: #000;
     text-shadow: 1.5px 1.5px 1.5px #333;
